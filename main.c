@@ -12,7 +12,7 @@ int main( void )
 
     int x = 4;
     x = add( 5, 13 );
-    printf( "hello ira = %d\n", x );
+    printf( "hell ira = %d\n", x );
 
     gets(s);
     printf(s);
