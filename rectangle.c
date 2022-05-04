@@ -4,13 +4,22 @@
 
 int main (void)
 {
-    printf ("enter 2 numbers with , to get area \n");
+    // prompt user for what to do
+    printf ("enter width then hit enter then enter height to find area of a square \n");
+
+    // get width from user and convert from a string to an integer
     char inputw [20];
     gets (inputw);
-    printf ("%s\n",inputw);
     int w = atoi(inputw);
+ 
+    // get height from user and convert from a string to an integer
     char inputh [20];
     gets (inputh);
-    printf (inputh);
     int h = atoi(inputh);
+
+    // calculate the area and print it out
+    int product = h * w;
+    printf ("%d\n",product);
 }
+
+
