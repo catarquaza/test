@@ -12,3 +12,5 @@
 ### future
 - collect a bunch of values then print them sorted numerically (talk about arrays, and memory allocation)
 - then alphbaetically, using what was written numerically (talk about ascii)
+
+radius of a circle = pi*r^2
